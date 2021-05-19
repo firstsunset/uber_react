@@ -1,0 +1,344 @@
+body {
+	
+	 margin: 0;
+	padding: 0;
+}
+
+
+
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header__content {
+	height: 72px;
+
+	background-color: #ffffff;
+	margin: auto;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.header__body {
+	display: flex;
+
+	height: 72px;
+
+	justify-content: space-between;
+}
+.header__logo {
+	margin: 28px 0 0 -1px;
+}
+.header__logo img {
+}
+.header__items {
+	display: flex;
+}
+.header__sign-in {
+	margin: 16px 27px 0 0;
+}
+.header__basket {
+	margin: 25px 15px 0 0;
+}
+.search {
+	    margin: 128px auto 0;
+    height: 24px;
+}
+
+.search__form {
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+}
+.search__form input {
+	border: none;
+	outline: none;
+	background: transparent;
+	width: 100%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #626262;
+	opacity: 0.5;
+}
+
+
+
+
+.rest {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 34px;
+	font-family: Roboto, sans-serif;
+}
+
+
+.card {	display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+   justify-content: space-between;
+ 
+
+}
+
+.card1 {
+   display: flex;
+   flex-direction: column;
+  justify-content: space-between;
+   border: none;
+
+margin-bottom: 16px;
+}
+.card1:hover {
+background-color: #F2F2F2;
+}
+.card1 img {
+  width: 100%;
+height: 100%;
+
+}
+
+a {
+	 text-decoration: none;
+    color: #1d1d1d;
+    font-family: Roboto, sans-serif;
+}
+ a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #1D1D1D; /* Ссылка черного цвета */
+   } 
+  .card-title	{
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+font-family: Roboto, sans-serif;
+color: #1D1D1D;
+font-size: 16px;
+}
+.cost {
+	margin-top: 0px;
+  	margin-bottom: 0px;
+font-family: Roboto, sans-serif;
+color: #626262;
+font-size: 14px;
+}
+.wait_time {
+margin-top: 0px;
+  	margin-bottom: 0px;
+font-family: Roboto, sans-serif;
+color: #1D1D1D;	
+font-size: 13px;
+}	
+
+
+
+.footer {
+    background: #262626;
+    width: 100%;
+    color: #FFFFFF;
+}
+.footer__section-1 {
+    height: 116px;
+}
+.footer__logo {
+    padding: 54px 0 0 2px;
+    margin-left: -4px;
+}
+
+.line {
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.4;
+}
+.footer__section-2 {
+    position: relative;
+    margin-left: -8px;
+    min-height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__row-1 {
+   display: flex;
+
+ justify-content: space-between;
+}
+.language-list {
+  margin: 32px 0 0 0;
+display: flex;
+    justify-content: space-between;
+    width: 227px;
+height: 40px;
+    background: #3b3b3b;
+    border-radius: 2px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+.language-list__img-1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 16px;
+}
+.language-list__img-1 img {
+    width: 100%;
+}
+.list {
+    margin-top: 30px;
+    background: transparent;
+  margin: 0;
+  padding: 0;
+    width: 100%;
+ }
+ .dropbtn {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+     width: 100%;
+}
+
+.topmenu {
+	
+}
+
+.submenu {
+	display: none;
+    position: absolute;
+    background-color: #3b3b3b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 100%;
+}
+.submenu a { padding: 12px 16px;
+  color: #ffffff;
+ text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.submenu-link {
+  text-decoration: none;
+	color: #ffffff;
+	font-family: Roboto, sans-serif;
+font-size: 13px;
+}
+
+.submenu-link:hover { 
+    text-decoration: none; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #ffffff; /* Ссылка белого цвета */
+   } 
+.submenu a {  display: block;
+   color: #ffffff;
+	font-family: Roboto, sans-serif;
+font-size: 13px;
+   } 
+.submenu a:active { 
+    text-decoration: none; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #ffffff; /* Ссылка белого цвета */
+    background-color: #3b3b3b;
+   } 
+
+.list:hover .submenu {
+
+	display: block;
+}
+
+.submenu a:hover {
+	background-color: #3b3b3b;
+	
+
+}
+
+
+
+
+
+
+
+
+.language-list__img-2 {
+   position: absolute;
+    top: 9px;
+    right: 8px;
+}
+.language-list__img-2.rotate {
+    transform: rotate(90deg);
+}
+.footer__row-1 {
+    margin-bottom: 30px;
+}
+.footer__row-2 {
+    margin: 35px 0 0 0;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+}
+.footer__row-2 a { 
+    text-decoration: none; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #FFFFFF; /* Ссылка черного цвета */
+   } 
+ .footer__row-2 a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: #FFFFFF; /* Ссылка черного цвета */
+   } 
+
+
+.footer__row-2 .item {
+    margin: 0 0 23px 0;
+    height: 16px;
+}
+
+.social-network {
+    padding: 105px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.download {        height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+	.download>a>img {
+   opacity: 0.5;
+    margin: 0 14px 0 26px;
+}
+
+.prava {
+	font-family: Roboto, sans-serif;
+
+font-size: 11px;
+}
+	
+	
+	
+	.btn-up {
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
